@@ -10,8 +10,12 @@ export const Header = () => {
         </div>
         <div className="settings">
           <ul>
-            <li>+</li>
-            <FaPizzaSlice />
+            <li className="settings__add" data-testid="quick-add-task-action">
+              +
+            </li>
+            <li className="setting__darkmode" data-testid="dark-mode-action">
+              <FaPizzaSlice />
+            </li>
           </ul>
         </div>
       </nav>
